@@ -17,7 +17,6 @@ const logger = winston.createLogger({
   ],
 });
 ```
-声明和实例化logger，设定logger的两个级别分别是error和info
 Declare and instantiate logger, setting the two levels of logger - error and info
 ``` js
 if (process.env.NODE_ENV !== 'production') {
